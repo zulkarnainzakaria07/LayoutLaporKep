@@ -18,7 +18,7 @@
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
       </ul>
       <form class="d-flex" role="search">
-        <button class="btn btn-sm btn-outline-success" type="button" style="margin-right: 10px;" data-bs-toggle="modal" data-bs-target="#exampleModal">Tentang LaporKep</button>
+        <button class="btn btn-sm btn-outline-success" type="button" style="margin-right: 10px;" data-bs-toggle="modal" data-bs-target="#aboutModal">Tentang LaporKep</button>
         <button class="btn btn-sm btn-outline-warning" type="submit" style="margin-right: 10px;">Statistik Laporan</button>
         <button class="btn btn-sm btn-primary" type="submit">Login Pengguna</button>
       </form>
@@ -182,19 +182,25 @@ No Hp :
 </div>
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="aboutModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Aplikasi LaporKep v.1.0</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        ...
+        <h5>Aplikasi ini adalah hasil pengembangan dari siswa kelas 11 RPL SMKN 1 Limboto tahun 2025</h5>
+        Biodata Programmer :<br>
+        <ul>
+          <li>Nama  : Sandra Bahua</li>
+          <li>Kelas : 11 RPL</li>
+          <li>Hoby  : Makan</li>
+        </ul>
+        <img src="images/sandra.jpg" class="border border-primary rounded" width="200px">
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
